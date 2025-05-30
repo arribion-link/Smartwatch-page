@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch | arribion technologies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <p class="logo">E-trend</p>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <button class="signin-btn">Signin</button>
+    </nav>
+
+    <main>
+
+        <section class="intro-section">
+            <div class="cta-container">
+                <div class="cta-text">
+                    <h2 class="h-cta-text-one">Arribion Watch</h2>
+                    <h1 class="h-cta-text-two">SALE 35% OFF</h1>
+                    <h3 class="h-cta-text-three">Make a Timely Life.</h3>
+                    <button class="cta-btn">Buy Now</button>
+                </div>
+                <div class="cta-image">
+                    <img src="https://img.freepik.com/free-vector/smart-watch-realistic-image-black_1284-11873.jpg?uid=R186930602&ga=GA1.1.1704136953.1739000514&semt=ais_items_boosted&w=740"
+                    alt="watch" class="cta-img">
+                </div>
+            </div>
+        </section>
+
+        <section class="section-two">
+
+            <div class="watch">
+               <div class="watch-one-text">
+                <h2>BEST DEAL</h2>
+                <p>
+                    lorem ipsume cyberminer <br> 
+                    technologies de arribion
+                </p>
+               </div>
+               <img src="https://img.freepik.com/free-vector/modern-watch_23-2147517339.jpg?uid=R186930602&ga=GA1.1.1704136953.1739000514&semt=ais_items_boosted&w=740" 
+               alt="watch"  class="watch-image-two">
+            </div>
+
+            <div class="watch">
+                <div class="watch-two-text">
+                 <h2>NEW ARRIVAL</h2>
+                 <p>
+                     lorem ipsume cyberminer <br>
+                     technologies de arribion
+                 </p>
+                </div>
+                <img src="https://img.freepik.com/premium-photo/colorful-round-smart-watchs-isolated-white-background_946859-53.jpg?uid=R186930602&ga=GA1.1.1704136953.1739000514&semt=ais_items_boosted&w=740" 
+                alt="watch" class="watch-image-two">
+             </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        &copy; <span id="year"></span> arribion technologies. All Rights Reserved.
+    </footer>
+    <script>
+        let year = document.getElementById('year');
+        
+        let currentYear = new Date();
+        let yearDate =  currentYear.getFullYear()
+        year.innerHTML = yearDate
+    </script>
+    
+</body>
+</html>
