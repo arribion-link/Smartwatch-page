@@ -34,20 +34,6 @@ nav li{
     font-size: 1.5rem;
 }
 
-nav,
-ul,
-li,
-a{
-    text-decoration: none;
-    color: var(--primary-color);
-}
-
-.logo{
-    font-size: 3em;
-    color: red;
-    font-weight: 900;
-    text-decoration: double;
-}
 
 .signin-btn{
     width: 15em;
